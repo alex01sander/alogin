@@ -4,6 +4,7 @@ import Services from '../src/components/Services';
 import Contact from '../src/components/Contact';
 import Footer from "../src/components/footer/"
 import Header from './components/header';
+import Responsive from './components/responsive'
 import { GlobalStyle } from './components/globalStyles';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <GlobalStyle/>
       <Header/>
       <Home />
+      <Responsive/>
       <About />
       <Services />
       <Contact />
