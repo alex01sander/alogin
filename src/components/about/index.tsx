@@ -1,38 +1,64 @@
 import React from 'react';
-import { AboutContainer, AboutImage, AboutText, 
-  Container, Mission, MissionImage, MissionText, Title, Vision, VisionImage, VisionText } from './styles';
-import about from "../../assets/missaaa.webp";
-import mission from "../../assets/missão.webp";
-import vision from "../../assets/macro-eye-iris.jpg";
+import { FaTools, FaLayerGroup, FaBolt, FaShieldAlt, FaRocket, FaCogs, FaEye } from 'react-icons/fa';
+import { Container, Title, BenefitSection, IconWrapper, BenefitText, BenefitTitle, Description } from './styles';
 
 const About = () => (
   <Container>
-    <Title>Somos uma empresa especializada em fornecer soluções digitais.</Title>
+    <Title>Somos uma empresa <strong>Especializada</strong> em fornecer soluções digitais.</Title>
+    
+    <BenefitSection>
+      <IconWrapper>
+      <FaRocket />
+      </IconWrapper>
+      <BenefitText>
+        <BenefitTitle>Desenvolvimento de Sites com Foco em Velocidade e Desempenho</BenefitTitle>
+        <Description>
+        Criamos sites otimizados para máxima performance, com foco em tempo de carregamento reduzido e 
+        alta performance, garantindo uma experiência fluida para o usuário e melhorando o ranqueamento em motores de busca.
+        </Description>
+      </BenefitText>
+    </BenefitSection>
 
-    <AboutContainer>
-      <AboutImage src={about} alt="Sobre a Empresa" />
-      <AboutText>
-        Somos uma empresa focada em oferecer serviços de criação de sites e landing pages que proporcionam resultados reais.
-        Com uma abordagem personalizada para cada cliente, nossa missão é desenvolver soluções que combinem design atraente
-        com funcionalidade, sempre alinhadas aos seus objetivos de negócio. Acreditamos que um site bem estruturado é
-        uma poderosa ferramenta para potencializar a presença online de qualquer empresa.
-      </AboutText>
-    </AboutContainer>
+    <BenefitSection>
+      <IconWrapper>
+      <FaCogs />
+      </IconWrapper>
+      <BenefitText>
+        <BenefitTitle>Transformar Negócios por Meio da Tecnologia</BenefitTitle>
+        <Description>
+        Nossa missão é capacitar empresas de todos os tamanhos a transformarem seus processos e operações por meio de soluções digitais inovadoras,
+         ajudando-as a alcançar seus objetivos de forma mais eficiente e competitiva no mercado global.
+        </Description>
+      </BenefitText>
+    </BenefitSection>
 
-    <Mission>
-      <MissionImage src={mission} alt="Missão" />
-      <MissionText>
-        Criar sites e landing pages que reflitam a identidade de cada cliente, oferecendo uma experiência digital única e eficiente.
-      </MissionText>
-    </Mission>
+    <BenefitSection>
+      <IconWrapper>
+      <FaEye />
+      </IconWrapper>
+      <BenefitText>
+        <BenefitTitle>Visão Centrada no Cliente</BenefitTitle>
+        <Description>
+        Nossa visão é desenvolver soluções digitais que coloquem o cliente no centro de tudo, criando experiências personalizadas e otimizadas para atender às
+         suas necessidades, ao mesmo tempo em que impulsionam o crescimento e a inovação dos nossos clientes.
+        </Description>
+      </BenefitText>
+    </BenefitSection>
 
-    <Vision>
-      <VisionImage src={vision} alt="Visão" />
-      <VisionText>
-        Ser uma referência em desenvolvimento de sites e landing pages, ajudando empresas a fortalecerem suas presenças digitais.
-      </VisionText>
-    </Vision>
+    <BenefitSection>
+      <IconWrapper>
+        <FaShieldAlt />
+      </IconWrapper>
+      <BenefitText>
+        <BenefitTitle>Controle de Qualidade Rigoroso</BenefitTitle>
+        <Description>
+        Aplicamos um processo rigoroso de controle de qualidade em todas as fases do desenvolvimento, 
+        incluindo testes de funcionalidade, desempenho,
+        compatibilidade entre navegadores e dispositivos, para assegurar uma experiência de alta qualidade e sem erros.
+        </Description>
+      </BenefitText>
+    </BenefitSection>
   </Container>
 );
 
-export default About;
+export default About ;
