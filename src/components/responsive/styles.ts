@@ -20,7 +20,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   padding: 20px;
   background-color: #000;
   perspective: 1000px;
@@ -101,7 +101,8 @@ export const Paragraph = styled.p`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
+  display: inline-block;
   padding: 10px 20px;
   border: none;
   background-color: #fff;
@@ -109,6 +110,8 @@ export const Button = styled.button`
   font-size: 1rem;
   cursor: pointer;
   border-radius: 50px;
+  text-decoration: none; /* Remove o sublinhado do link */
+  text-align: center;
   transition: background-color 0.3s ease;
 
   &:hover {

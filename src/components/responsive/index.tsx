@@ -41,7 +41,7 @@ return(
         Desenvolvemos soluções de (UX) que colocam o usuário no foco, com design inteligente e interfaces intuitivas. 
         Garantimos interações agradáveis e eficientes, criando uma jornada envolvente que maximiza o valor do seu produto ou serviço.
         </Paragraph>
-        <Button>Falar com um especialista →</Button>
+        <Button href="https://wa.me/5551992401184" target="_blank">Falar com um especialista →</Button>
         </TextContent>
   </Container>
 )

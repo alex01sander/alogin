@@ -5,6 +5,8 @@ import Contact from '../src/components/Contact';
 import Footer from "../src/components/footer/"
 import Header from './components/header';
 import Responsive from './components/responsive'
+import Layout from './components/layout'
+import Projetos from '././components/projetos'
 import { GlobalStyle } from './components/globalStyles';
 
 function App() {
@@ -14,8 +16,10 @@ function App() {
       <Header/>
       <Home />
       <Responsive/>
-      <About />
       <Services />
+      <Layout/>
+      <About />
+      <Projetos/>
       <Contact />
       <Footer />
     </div>
