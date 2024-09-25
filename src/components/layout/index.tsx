@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayoutContainer, TextSection, Title, Description, Button, ImageSection, ImageCard } from './styles'; // Importa os styled-components
+import { LayoutContainer, TextSection, Title, Description, Button, ImageSection, ImageCard } from './styles'; 
 import layout from '../../assets/Multi Device Mockup.png'
 
 const Layout = () => (

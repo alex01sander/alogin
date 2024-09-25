@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, VideoBackground, Title, SubTitle, Button } from './styles';
-import videoFile from '../../assets/Análise do gameplay.mp4'; // Caminho do vídeo
-
+import videoFile from '../../assets/Análise do gameplay.mp4'; 
 const Home = () => (
   <Container>
     <VideoBackground autoPlay muted loop>

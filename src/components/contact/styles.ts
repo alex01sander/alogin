@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   padding: 80px 20px;
-  background-color: #f9f9f9; /* Cor de fundo mais suave */
+  background-color: #f9f9f9;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidade */
-  border-radius: 10px; /* Bordas arredondadas para suavizar o visual */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 `;
 
 export const Wrapper = styled.div`
@@ -23,6 +23,8 @@ export const Wrapper = styled.div`
   }
 `;
 
+
+
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
@@ -30,10 +32,10 @@ export const Form = styled.form`
   gap: 20px;
   max-width: 500px;
   width: 100%;
-  background: white; /* Fundo branco para o formulário */
-  padding: 20px; /* Espaçamento interno */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 `;
 
 export const Input = styled.input`
@@ -47,7 +49,7 @@ export const Input = styled.input`
   &:focus {
     border-color: #4A90E2;
     outline: none;
-    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Sombra ao focar */
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
   }
 `;
 
@@ -78,11 +80,11 @@ export const Button = styled.button`
 
   &:hover {
     background-color: #357ABD;
-    transform: translateY(-2px); /* Levanta o botão ao passar o mouse */
+    transform: translateY(-2px);
   }
 
   &:active {
-    transform: translateY(1px); /* Leve movimento ao clicar */
+    transform: translateY(1px);
   }
 `;
 
@@ -95,7 +97,7 @@ export const SocialLinks = styled.div`
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #333; /* Cor mais escura para destaque */
+    color: #333;
   }
 
   a {
@@ -118,4 +120,14 @@ export const SocialLinks = styled.div`
   }
 `;
 
+export const SuccessMessage = styled.p`
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+`;
 
+export const ErrorMessage = styled.p`
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+`;

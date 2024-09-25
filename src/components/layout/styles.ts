@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-// Container principal
+
 export const LayoutContainer = styled.div`
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@ export const LayoutContainer = styled.div`
   }
 `;
 
-// Seção de texto
+
 export const TextSection = styled.div`
   max-width: 40%;
   color: #000;
@@ -23,7 +23,7 @@ export const TextSection = styled.div`
   }
 `;
 
-// Título
+
 export const Title = styled.h1`
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -38,7 +38,7 @@ export const Title = styled.h1`
   }
 `;
 
-// Descrição
+
 export const Description = styled.p`
   font-size: 1rem;
   color: #666;
@@ -54,9 +54,9 @@ export const Description = styled.p`
   }
 `;
 
-// Botão
+
 export const Button = styled.a`
-  display: inline-block; /* Faz com que o link se comporte como um botão */
+  display: inline-block; 
   padding: 10px 20px;
   font-size: 1rem;
   background-color: #000;
@@ -64,7 +64,7 @@ export const Button = styled.a`
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  text-decoration: none; /* Remove o sublinhado dos links */
+  text-decoration: none; 
   text-align: center;
   transition: background-color 0.3s ease;
 
@@ -78,7 +78,7 @@ export const Button = styled.a`
   }
 `;
 
-// Seção de imagens
+
 export const ImageSection = styled.div`
   max-width: 50%;
   
@@ -88,7 +88,7 @@ export const ImageSection = styled.div`
   }
 `;
 
-// Estilo das imagens
+
 export const ImageCard = styled.img`
   width: 100%;
   height: auto;

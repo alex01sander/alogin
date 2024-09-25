@@ -110,7 +110,7 @@ export const Button = styled.a`
   font-size: 1rem;
   cursor: pointer;
   border-radius: 50px;
-  text-decoration: none; /* Remove o sublinhado do link */
+  text-decoration: none; 
   text-align: center;
   transition: background-color 0.3s ease;
 

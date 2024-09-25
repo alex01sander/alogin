@@ -36,7 +36,7 @@ export const ServiceItem = styled.div`
   
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  /* Efeito de hover */
+  
   &:hover {
     transform: translateY(-10px); 
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); 
@@ -52,21 +52,21 @@ export const ServiceItem = styled.div`
  p {
   font-size: 1rem;
   max-width: 29rem;
-  margin: 0 auto; /* Centraliza o parágrafo horizontalmente */
+  margin: 0 auto; 
   margin-top: 10px;
   color: #ccc;
   line-height: 1.6;
-  text-align: left; /* Alinha o texto à esquerda */
+  text-align: left; 
 }
 
 
   @media (max-width: 768px) {
-    padding: 15px; /* Reduz o padding em telas menores */
+    padding: 15px; 
     h3 {
-      font-size: 1.3rem; /* Ajusta o tamanho do título para telas menores */
+      font-size: 1.3rem; 
     }
     p {
-      font-size: 0.9rem; /* Ajusta o tamanho do parágrafo para telas menores */
+      font-size: 0.9rem; 
     }
   }
 `;

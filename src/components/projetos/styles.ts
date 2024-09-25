@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-// Definir o tipo das propriedades do componente ProjetosImage
+
 interface ProjetosImageProps {
   zoomed: boolean;
 }
@@ -28,16 +28,16 @@ export const ProjetosContainer = styled.div`
   padding: 2rem;
   height: auto;
   gap: 1rem;
-  margin: 0 auto; /* Centraliza o container na tela */
+  margin: 0 auto; 
 
   @media (max-width: 768px) {
-    flex-direction: column; /* Muda para coluna em telas pequenas */
+    flex-direction: column; 
     gap: 1.5rem;
     padding: 1rem;
   }
 `;
 
-// Estilo para cada cartão de projeto
+
 export const ProjetosCard = styled.div`
   width: 100%;
   height: auto;
@@ -48,19 +48,19 @@ export const ProjetosCard = styled.div`
   }
 
   @media (max-width: 768px) {
-    max-width: 90%; /* Reduz o tamanho dos cartões em telas menores */
+    max-width: 90%; 
   }
 `;
 
-// Imagem dentro do cartão com efeito de zoom ao clicar
+
 export const ProjetosImage = styled.img<ProjetosImageProps>`
   width: 100%;
   height: auto;
-  object-fit: contain; /* Mantém a proporção correta */
+  object-fit: contain; 
   border-radius: 15px;
   margin-bottom: 1rem;
-  cursor: pointer; /* O cursor se torna um ponteiro quando passa sobre a imagem */
-  transition: transform 0.3s ease; /* Transição suave para o zoom */
+  cursor: pointer; 
+  transition: transform 0.3s ease; 
 
   ${({ zoomed }) =>
     zoomed &&
@@ -70,6 +70,6 @@ export const ProjetosImage = styled.img<ProjetosImageProps>`
   `}
 
   @media (max-width: 768px) {
-    max-width: 100%; /* Garante que a imagem ocupe todo o cartão em telas pequenas */
+    max-width: 100%;
   }
 `;

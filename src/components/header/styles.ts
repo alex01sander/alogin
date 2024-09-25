@@ -33,7 +33,7 @@ export const Nav = styled.nav`
   gap: 1.5rem;
 
   @media (max-width: 768px) {
-    display: none; /* Esconde o menu em telas menores */
+    display: none; 
   }
 `;
 

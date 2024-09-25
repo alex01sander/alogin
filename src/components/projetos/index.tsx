@@ -6,22 +6,22 @@ import {
   Description,
   ProjetoText,
   ProjetoTitle,
-} from './styles'; // Importa os styled-components
+} from './styles'; 
 
 import game from '../../assets/Design sem nome (11).png';
 import pet from '../../assets/Design sem nome (13).png';
 import psico from '../../assets/Design sem nome (12).png';
 
 const Projetos = () => {
-  // Estado para controlar qual imagem está com zoom
+  
   const [zoomedImage, setZoomedImage] = useState<string | null>(null);
 
-  // Função para alternar o estado de zoom
+  
   const handleZoom = (imageSrc: string) => {
     if (zoomedImage === imageSrc) {
-      setZoomedImage(null); // Remove o zoom se a mesma imagem for clicada novamente
+      setZoomedImage(null); 
     } else {
-      setZoomedImage(imageSrc); // Ativa o zoom na imagem clicada
+      setZoomedImage(imageSrc); 
     }
   };
 
